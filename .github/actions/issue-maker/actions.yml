@@ -1,0 +1,17 @@
+namename: Joke Docker Action
+
+description: Get Joke from random-joke and create new Issue
+
+inputs:
+  issueTitle:
+    description: Issue Title
+  joke:
+    description: Joke URL
+    required: true
+  repoToken:
+    description: repoToken for make Issue
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
