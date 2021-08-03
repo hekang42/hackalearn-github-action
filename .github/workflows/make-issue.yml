@@ -11,7 +11,7 @@ jobs:
 
       - name: Random Joke Action for team
         uses: ./.github/actions/random-joke
-        id: random joke
+        id: random-joke
 
       - name: Create Issue joke
         uses: ./.github/actions/issue-maker
